@@ -34,14 +34,14 @@ $(document).ready(function(){
 
     // typing animation script
     var typed = new Typed(".typing",{
-        strings: ["Data Analyst", "Developer", "Designer", "Freelancer"],
+        strings: ["Data Analyst", "Developer", "Designer", "Freelancer", "Data Scientist"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
     
     var typed = new Typed(".typing-2",{
-        strings: ["Data Analyst", "Developer", "Designer", "Freelancer"],
+        strings: ["Data Analyst", "Developer", "Designer", "Freelancer", "Data Scientist"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -52,7 +52,7 @@ $(document).ready(function(){
     $('.carousel').owlCarousel({
         margin: 20,
         loop: true,
-        autoplayTimeOut: 2000,
+        autoplayTimeout: 2000,
         autoplayHoverPause: true,
         responsive: {
             0:{

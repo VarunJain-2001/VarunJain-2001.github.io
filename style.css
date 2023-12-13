@@ -122,7 +122,7 @@ html{
 
 .home{
     display: flex;
-    background: url("Images/home1.png") no-repeat center;
+    background: url("Images/home1.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -231,8 +231,8 @@ section .title::after{
 
 }
 .about .about-content .left img{
-    height: 400px;
-    width: 400px;
+    height: 450px;
+    width: 500px;
     object-fit: cover;
     border-radius: 6px;
 
@@ -380,23 +380,23 @@ section .title::after{
     top: 0;
     background: crimson;
 }
-.skills-content .right .html::before{
+.skills-content .right .java::before{
     width: 90%;
-}
-.skills-content .right .css::before{
-    width: 70%;
-}
-.skills-content .right .js::before{
-    width: 60%;
 }
 .skills-content .right .py::before{
     width: 80%;
 }
-.skills-content .right .java::before{
+.skills-content .right .mysql::before{
     width: 80%;
 }
-.skills-content .right .mysql::before{
-    width: 90%;
+.skills-content .right .flask::before{
+    width: 80%;
+}
+.skills-content .right .tab::before{
+    width: 80%;
+}
+.skills-content .right .bi::before{
+    width: 70%;
 }
 
 
